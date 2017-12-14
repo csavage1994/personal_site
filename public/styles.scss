@@ -259,7 +259,7 @@ button:focus {
 		position: relative;
 		top: 10px;
 		opacity: 0;
-		transition: opacity 0.5s, top 0.5s, transform 0.1s;
+		transition: opacity 0.5s, top 0.5s;
 
 		&.show {
 			top: 0;
