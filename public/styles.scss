@@ -237,6 +237,7 @@ button:focus {
 		background-attachment: fixed;
 		background-position: center 75%;
 		background-repeat: no-repeat;
+		background-size: 100vw;
 	}
 
 	.container {
@@ -258,7 +259,7 @@ button:focus {
 		position: relative;
 		top: 10px;
 		opacity: 0;
-		transition: opacity 0.5s, top 0.5s;
+		transition: opacity 0.5s, top 0.5s, transform 0.1s;
 
 		&.show {
 			top: 0;
@@ -602,7 +603,7 @@ button:focus {
 
 .sticky-header {
 	position: fixed;
-	top: -55px;
+	top: -70px;
 	width: 100vw;
 	background: black;
 	height: 55px;
